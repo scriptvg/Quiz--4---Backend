@@ -1,0 +1,50 @@
+2025-05-05 08:58:30,324 - INFO - Iniciando importación de libros...
+2025-05-05 08:58:30,325 - INFO - Buscando libros de categoría: fiction
+2025-05-05 08:58:32,366 - INFO - Buscando libros de categoría: nonfiction
+2025-05-05 08:58:34,449 - INFO - Buscando libros de categoría: romance
+2025-05-05 08:58:36,351 - INFO - Buscando libros de categoría: mystery
+2025-05-05 08:58:38,337 - INFO - Buscando libros de categoría: science fiction
+2025-05-05 08:58:40,545 - INFO - Buscando libros de categoría: fantasy
+2025-05-05 08:58:42,450 - INFO - Buscando libros de categoría: biography
+2025-05-05 08:58:44,529 - INFO - Buscando libros de categoría: history
+2025-05-05 08:58:46,577 - INFO - Buscando libros de categoría: literature
+2025-05-05 08:58:48,671 - INFO - Buscando libros de categoría: poetry
+2025-05-05 08:58:50,741 - INFO - Buscando libros de categoría: programming
+2025-05-05 08:58:52,834 - INFO - Buscando libros de categoría: data science
+2025-05-05 08:58:54,666 - INFO - Buscando libros de categoría: artificial intelligence
+2025-05-05 08:58:56,567 - INFO - Buscando libros de categoría: business
+2025-05-05 08:58:58,714 - INFO - Buscando libros de categoría: self-help
+2025-05-05 08:59:00,982 - INFO - Total de libros únicos encontrados: 530
+2025-05-05 08:59:01,125 - INFO - package: mysql.connector.plugins
+2025-05-05 08:59:01,126 - INFO - plugin_name: caching_sha2_password
+2025-05-05 08:59:01,126 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-05 08:59:01,128 - INFO - Conexión a MySQL establecida correctamente
+2025-05-05 08:59:01,350 - INFO - Libros insertados/ignorados: 530
+2025-05-05 08:59:10,523 - INFO - Datos insertados correctamente
+2025-05-05 08:59:10,524 - INFO - Conexión a MySQL cerrada
+2025-05-05 08:59:10,524 - INFO - ¡Importación completada!
+2025-05-05 09:02:15,915 - INFO - Iniciando importación de libros...
+2025-05-05 09:02:15,915 - INFO - Buscando libros de categoría: fiction
+2025-05-05 09:02:18,017 - INFO - Buscando libros de categoría: nonfiction
+2025-05-05 09:02:20,011 - INFO - Buscando libros de categoría: romance
+2025-05-05 09:02:22,000 - INFO - Buscando libros de categoría: mystery
+2025-05-05 09:02:23,946 - INFO - Buscando libros de categoría: science fiction
+2025-05-05 09:02:26,167 - INFO - Buscando libros de categoría: fantasy
+2025-05-05 09:02:28,093 - INFO - Buscando libros de categoría: biography
+2025-05-05 09:02:30,086 - INFO - Buscando libros de categoría: history
+2025-05-05 09:02:32,136 - INFO - Buscando libros de categoría: literature
+2025-05-05 09:02:34,192 - INFO - Buscando libros de categoría: poetry
+2025-05-05 09:02:36,282 - INFO - Buscando libros de categoría: programming
+2025-05-05 09:02:38,343 - INFO - Buscando libros de categoría: data science
+2025-05-05 09:02:40,271 - INFO - Buscando libros de categoría: artificial intelligence
+2025-05-05 09:02:42,114 - INFO - Buscando libros de categoría: business
+2025-05-05 09:02:44,128 - INFO - Buscando libros de categoría: self-help
+2025-05-05 09:02:46,170 - INFO - Total de libros únicos encontrados: 530
+2025-05-05 09:02:46,299 - INFO - package: mysql.connector.plugins
+2025-05-05 09:02:46,300 - INFO - plugin_name: caching_sha2_password
+2025-05-05 09:02:46,300 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-05 09:02:46,302 - INFO - Conexión a MySQL establecida correctamente
+2025-05-05 09:02:46,453 - INFO - Libros insertados/ignorados: 530
+2025-05-05 09:02:50,623 - INFO - Datos insertados correctamente
+2025-05-05 09:02:50,624 - INFO - Conexión a MySQL cerrada
+2025-05-05 09:02:50,624 - INFO - ¡Importación completada!

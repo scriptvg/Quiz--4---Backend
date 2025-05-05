@@ -1,0 +1,5 @@
+2025-05-05 08:59:53,417 - INFO - Usando configuración desde config.py
+2025-05-05 08:59:53,501 - INFO - package: mysql.connector.plugins
+2025-05-05 08:59:53,502 - INFO - plugin_name: caching_sha2_password
+2025-05-05 08:59:53,502 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-05 08:59:53,503 - INFO - Conexión a MySQL establecida correctamente
