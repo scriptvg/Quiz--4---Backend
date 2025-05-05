@@ -181,7 +181,35 @@ CREATE TABLE resenas (
     FOREIGN KEY (cliente_id) REFERENCES clientes(cliente_id) 	ON DELETE CASCADE -- --> Clave foranea cliente
 );
 
+/* ============================================================================ */
+
 SET FOREIGN_KEY_CHECKS = 1;
+
+/* ============================================================================ */
+
+
+
+/* ============================ INSERTS ============================*/
+
+-- Insert de prueba
+INSERT INTO libros (
+    titulo, subtitulo, isbn, fecha_publicacion, edicion, editorial,
+    precio, stock, descripcion, num_paginas, idioma,
+    calificacion, imagen_portada, formato
+) VALUES
+('Cien años de soledad', 'Realismo mágico y memoria', '9780307474728', '1967-05-30', '1ª Edición', 'Sudamericana', 39.99, 15, 'Una obra maestra de la literatura latinoamericana.', 417, 'es', 4.9, NULL, 'Tapa dura'),
+('El principito', 'Para niños y adultos', '9780156012195', '1943-04-06', '1ª Edición', 'Reynal & Hitchcock', 15.95, 30, 'Un clásico sobre la inocencia y el amor.', 96, 'es', 4.8, NULL, 'Tapa blanda'),
+('Don Quijote de la Mancha', 'El caballero de la triste figura', '9788491050271', '1605-01-16', '1ª Edición', 'Francisco de Robles', 29.99, 10, 'La gran novela de caballería de Cervantes.', 863, 'es', 4.7, NULL, 'Tapa dura'),
+('Rayuela', 'Una novela para armar', '9788437605357', '1963-06-28', '1ª Edición', 'Sudamericana', 34.50, 20, 'Una obra experimental de la literatura hispanoamericana.', 700, 'es', 4.5, NULL, 'Tapa blanda'),
+('1984', 'Distopía clásica', '9780451524935', '1949-06-08', '1ª Edición', 'Secker & Warburg', 19.99, 25, 'La vigilancia y la opresión en un estado totalitario.', 328, 'es', 4.9, NULL, 'Ebook'),
+('Fahrenheit 451', 'Donde los libros arden', '9781451673319', '1953-10-19', '1ª Edición', 'Ballantine Books', 17.00, 12, 'Una sociedad sin libros es una sociedad sin memoria.', 256, 'es', 4.6, NULL, 'Tapa blanda'),
+('Crónica de una muerte anunciada', 'Una historia inevitable', '9780307387738', '1981-01-01', '1ª Edición', 'Sudamericana', 20.00, 18, 'La tragedia narrada con maestría por García Márquez.', 128, 'es', 4.4, NULL, 'Tapa blanda'),
+('La sombra del viento', 'El cementerio de los libros olvidados', '9788408172173', '2001-04-01', '1ª Edición', 'Planeta', 22.50, 14, 'Un homenaje a la literatura y los secretos de Barcelona.', 576, 'es', 4.8, NULL, 'Tapa dura'),
+('Catedral del mar', 'Poder, fe y traición', '9788408032224', '2006-03-01', '1ª Edición', 'Grijalbo', 25.00, 10, 'Una historia épica ambientada en la Barcelona medieval.', 672, 'es', 4.3, NULL, 'Tapa dura'),
+('Los juegos del hambre', 'Supervivencia y rebelión', '9788498675390', '2008-09-14', '1ª Edición', 'Scholastic Press', 21.00, 22, 'Un futuro distópico donde la lucha por la vida es televisada.', 374, 'es', 4.5, NULL, 'Tapa blanda');
+
+/* ============================================================================ */
+
 
 /* ============================ VISTAS PERSONALIZADAS ============================*/
 
